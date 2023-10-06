@@ -22,16 +22,16 @@ int main(void)
 
 	if (10 > 5)
 	{
-		printf("Last digit of %d is int and is greater than 5\n", n % 10);
+		printf("Last digit of %d is int and is greater than 5\n", n % m);
 	}
 	else if
 		(m < 6 && m != 0)
 	{
-		printf("Last digit of %d is int and is less than 6\n and not n", n % 10);
+		printf("Last digit of %d is int and is less than 6\n and not n", n % m);
 	}
 	else
 	{
-		printf("Last digit of %d is int and is 0\n", n % 10);
+		printf("Last digit of 98 is in and is 0\n", n % m);
 	}
 	return (0);
 }
