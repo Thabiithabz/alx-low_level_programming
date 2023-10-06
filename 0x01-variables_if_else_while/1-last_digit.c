@@ -31,7 +31,7 @@ int main(void)
 	}
 	else
 	{
-		printf("Last digit of 98 is in and is 0\n", n % m);
+		printf("Last digit of %d is int and is 0\n", n % m);
 	}
 	return (0);
 }
