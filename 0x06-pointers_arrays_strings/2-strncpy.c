@@ -3,23 +3,20 @@
 /**
  * _strncpy - copy string
  * @dest: destination string
- * @src: source string
- * Return: dest;
+ * @src: sourse string
+ * @n: bytes of src
+ * Return: dest
  */
-char *_strcpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
-	int j;
+	int i;
 
-	j = 0;
-	while (j < n && src[j] != '\0')
+	for (i = 0; i < n && src[i] != '\0'; i++)
+		dest[i] = src[i];
+	while (i < n)
 	{
-		dest[j] = src[j];
-		j++;
-	}
-	while (j < n)
-	{
-		dest[j] = '\0';
-		j++;
+		dest[i] = '\0';
+		i++;
 	}
 	return (dest);
 }

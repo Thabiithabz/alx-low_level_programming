@@ -1,23 +1,19 @@
 #include "main.h"
 
 /**
- * _strcmpy - compare string values
- * @s1: parameter 1
- * @s2: parameter 2
- * Return: int
+ * _strcmp - Comparespointers of two strings
+ * @s1: a pointer of the first string to be compared
+ * @s2: a pointer of the second string to be compared
+ * Return: if str1 < str2 the negative difference first umatched character
+ * if str1 == str2, 0.
+ * if str1 > str2 the positive difference of first umatched characters
  */
 int _strcmpy(char *s1, char *s2)
 {
-	int i;
-
-	i = 0;
-	while (s1[i] != '\0' && s2[i] != '\0')
+	while (*s1 && *s2 && *s1 == *s2)
 	{
-		if (s1[i] != s2[i])
-		{
-			return (s1[i] - s2[i]);
-		}
-		i++;
+		s1++;
+		s2++;
 	}
-	return (0);
+	return (*s1 - *s2);
 }
