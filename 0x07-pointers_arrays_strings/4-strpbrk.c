@@ -3,8 +3,8 @@
 
 /**
  * _strpbrk - Entry point
- * @s: inpu 
- * @accept: input 
+ * @s: input
+ * @accept: input
  * Return: Always 0 (Success)
  */
 char *_strpbrk(char *s, char *accept)
