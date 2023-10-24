@@ -4,7 +4,7 @@
  * most_numbers - Print 10 times the number since 0 up to 14
  * Return: 10 times of the number since 0 up to 14
  */
-void more_numbers(void);
+void more_numbers(void)
 {
 	int x, y;
 
@@ -18,6 +18,6 @@ void more_numbers(void);
 			}
 			_putchar((y % 10) + '0');
 		}
-		_puctahr('\n');
+		_putchar('\n');
 	}
 }

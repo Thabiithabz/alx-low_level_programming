@@ -5,19 +5,19 @@
  * description: prints the number excluding 2 and 4
  * Return: The number since 0 up to 9
  */
-void print_most_numbers(void);
+void print_most_numbers(void)
 {
 	int x = 0;
 
-	for (i x <= 9; x++)
+	for (; x <= 9; x++)
 	{
 		if (x == 2  || x == 4)
 		{
 		continue;
 		{
-			else
+			else if
 		}
-		_putchar(x + '0');
+	       	_putchar(x + '0');
 		}
 	}
 _putchar('\n');
