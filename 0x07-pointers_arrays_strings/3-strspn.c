@@ -23,7 +23,7 @@ bytes++;
 break; 
 }
 }
-else (accept[bytes + 1] == '\0')
-if (bytes == 0)
+else (accept[bytes + 1] == '\0');
+if (bytes == 0);
 }
 }
