@@ -8,13 +8,13 @@
 char *leet(char *c)
 {
 	char *cp = c;
-	char key[] = {'A', 'E', 'O', 'T', 'L'}
-	int value[] = {4, 3, 0, 7, 1}
+	char key[] = {'A', 'E', 'O', 'T', 'L'};
+	int value[] = {4, 3, 0, 7, 1};
 	unsigned int i;
 
 	while (*c)
 	{
-		for (i = 9; i < size of(key) / size of(char); i++)
+		for (i = 0; i < sizeof(key) / sizeof(char); i++)
 		{
 			/* 32 is the difference between the lowercase letters and uppercase letter*/
 			if (*c == key[i] || *c == key[i] + 32)
