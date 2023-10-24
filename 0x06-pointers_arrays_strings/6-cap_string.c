@@ -17,7 +17,7 @@ int islower(char *c)
  * @c: character
  * Return: if 1 is true and 0 if false
  */
-int isdelimiter(char c)
+int isdelimiter(char *c)
 {
 	int i;
 	char demlimiter[] = "\040";
